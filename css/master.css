@@ -2,5 +2,95 @@ body
 {
   width: 1024px;
   height: 768px;
-  background: red;
+  background: yellow;
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.man {
+  -webkit-transform: rotate(-90deg); 
+  -moz-transform: rotate(-90deg);	
+}
+
+.header {
+  color: black;
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  margin: 10px auto;
+  font-size: 5em;
+  font-weight: bold;
+  margin-top: 0;
+  padding-top: -50px;
+}
+
+.header .text{
+  margin-top: -150px;
+  position: relative;
+  z-index: 9999;
+
+}
+
+.star-five {
+   margin: 50px 0;
+   position: relative;
+   display: block;
+   color: white;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid white;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+-webkit-box-shadow:0 0 50px #ffa700; 
+-moz-box-shadow: 0 0 50px #ffa700; 
+box-shadow:0 0 50px #ffa700; 
+}
+.star-five:before {
+   border-bottom: 80px solid white;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+-webkit-box-shadow:0 0 50px #ffa700; 
+-moz-box-shadow: 0 0 50px #ffa700; 
+box-shadow:0 0 50px #ffa700; 
+
+}
+.star-five:after {
+   position: absolute;
+   display: block;
+   color: white;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid white;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+-webkit-box-shadow:0 0 50px #ffa700; 
+-moz-box-shadow: 0 0 50px #ffa700; 
+box-shadow:0 0 50px #ffa700; 
+
+}
+.star-five.right{
+    float: right;
+    margin-top: 0px;
 }
