@@ -79,15 +79,21 @@ body
 }
 
 .tetris{
-  width: 900px;
+  width: 910px;
   background: #fff;
   height: 100px;
+  margin-left: -14px;
+}
+
+.tetris .left {
+  position: relative;
 }
 
 .tetris .square {
     height:18px;
     width: 18px;
     background: #0000ff;
+    position: absolute;
 }
 
 .tetris .l .left {
@@ -200,15 +206,31 @@ body
 .tetris .horiz {
   -webkit-transform: rotate(-90deg); 
 }
+.tetris .horiz2 {
+  -webkit-transform: rotate(90deg); 
+}
+
+
 
 .tetris #p1{
 top: -12px;
-left: 18px;
+left: 28px;
 }
 .tetris #p2{
-top: -12px;
-left: 18px;
+top: -30px;
+left: 14px;
 }
+.tetris #p3{
+top: 11px;
+left: 33px;
+}
+.tetris #p4{
+top: -48px;
+left: 6px;}
+.tetris #p5{
+top: -48px;
+left: 6px;}
+
 
 
 .star-five {
