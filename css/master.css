@@ -343,7 +343,7 @@ left: 24px;
   width: 25px;
   height: 25px;
   background: rgb(241,73,29);
-  opacity: 0.96;
+  opacity: 0.75;
 }
 
 .sq-purple {
@@ -352,7 +352,7 @@ left: 24px;
   width: 25px;
   height: 25px;
   background: rgb(88,90,117);
-  opacity: 0.96;
+  opacity: 0.75;
 }
 
 .sq-green {
@@ -362,7 +362,7 @@ left: 24px;
   left: 17px;
   top: 18px;
   background: rgb(51, 140, 149);
-  opacity: 0.96;
+  opacity: 0.75;
 }
 
 .sq-blue {
@@ -372,5 +372,5 @@ left: 24px;
   top: 18px;
   right: 43px;
   background: rgb(96,194,58);
-  opacity: 0.96;
+  opacity: 0.75;
 }
