@@ -30,10 +30,16 @@ body
   z-index: 9999;
 
 }
+
 .bird {
--webkit-box-shadow:5px 5px 15px #000; 
--moz-box-shadow: 5px 5px 15px #000; 
-box-shadow:5px 5px 15px #000; 
+  -webkit-box-shadow:5px 5px 15px #000; 
+  -moz-box-shadow: 5px 5px 15px #000; 
+  box-shadow:5px 5px 15px #000; 
+}
+
+.pictext {
+  color: #fff;
+  -webkit-text-stroke: #000 1px solid;
 }
 
 .star-five {
