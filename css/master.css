@@ -51,8 +51,8 @@ body
 .copy {
   margin-top: 30px;
   margin-left: 420px;
-  line-height: 1.6em;
-  font-size: 1.1em;
+  line-height: 1.45em;
+  font-size: 1.2em;
 } 
 
 .pictext {
@@ -87,21 +87,17 @@ body
 .star-five {
    display: block;
    color: white;
-   top: -45px;
-   left: 0;
+   top: -37px;
+   left: 8px;
    font-size: 120px;
    position: absolute;
-   -moz-transform:    rotate(35deg);
-   -webkit-transform: rotate(35deg);
-   -ms-transform:     rotate(35deg);
-   -o-transform:      rotate(35deg);
-    -webkit-text-shadow:0 0 23px #ffa700; 
-    -moz-text-shadow: 0 0 23px #ffa700; 
-    text-shadow:0 0 23px #ffa700; 
+   -webkit-transform: rotate(52deg);
+  text-shadow: 0 0 23px #ffa700; 
 }
 .star-five.right{
     float: right;
-    right: -370px;
+    right: -368px;
+   -webkit-transform: rotate(25deg);
 }
 .ribbon-holder {
   position: absolute;
