@@ -146,7 +146,6 @@ box-shadow:0 0 50px #ffa700;
 
   padding: 0.25em 0;
   position: relative;
-  top: 1em;
 
   /* Defaults friendly for white pages. */
   -webkit-box-shadow: 0 0 13px #888;
@@ -170,4 +169,8 @@ box-shadow:0 0 50px #ffa700;
 
 .red.ribbon .text {
   border: 1px solid #bf6060;
+}
+
+.ribbon {
+  border: dashed 1px;
 }
