@@ -84,6 +84,120 @@ body
   height: 100px;
 }
 
+.tetris .square {
+    height:18px;
+    width: 18px;
+    background: #0000ff;
+}
+
+.tetris .l .left {
+    background: #534741;
+    width: 9px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 28px;
+}
+
+.tetris .l .right {
+    background: #534741;
+    width: 9px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    height: 9px;
+}
+
+
+.tetris .l {
+    width: 18px;
+    height: 28px;
+    position: relative;
+}
+
+.tetris .z .left {
+    background: #ff00ff;
+    width: 9px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 18px;
+}
+
+.tetris .z .right {
+    background: #ff00ff;
+    width: 9px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    height: 18px;
+}
+
+
+.tetris .z {
+    width: 18px;
+    height: 28px;
+    position: relative;
+}
+
+.tetris .line {
+  height: 36px;
+  width: 9px;
+  position: relative;
+  background: #c1272d;
+}
+
+.tetris .s .right {
+    background: #fbb03b;
+    width: 9px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 18px;
+}
+
+.tetris .s .left {
+    background: #fbb03b;
+    width: 9px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    height: 18px;
+}
+
+
+.tetris .s {
+    width: 18px;
+    height: 28px;
+    position: relative;
+}
+
+.tetris .backwardsl .right {
+    background: #009245;
+    width: 9px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 28px;
+}
+
+.tetris .backwardsl .left {
+    background: #009245;
+    width: 9px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    height: 9px;
+}
+
+
+.tetris .backwardsl {
+    width: 18px;
+    height: 28px;
+    position: relative;
+}
+
+
 .star-five {
    display: block;
    color: white;
