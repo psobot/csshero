@@ -197,6 +197,19 @@ body
     position: relative;
 }
 
+.tetris .horiz {
+  -webkit-transform: rotate(-90deg); 
+}
+
+.tetris #p1{
+top: -12px;
+left: 18px;
+}
+.tetris #p2{
+top: -12px;
+left: 18px;
+}
+
 
 .star-five {
    display: block;
