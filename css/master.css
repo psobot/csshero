@@ -175,3 +175,13 @@ body
   height: 25px;
   background: purple;
 }
+
+.sq-green {
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  left: 17px;
+  top: 18px;
+  background: green;
+
+}
