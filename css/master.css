@@ -189,17 +189,24 @@ body
 
 .square-holder {
   position:absolute;
-  right:560px;
+  right:510px;
   top:40px;
+  width: 50px;
+  height: 75px;
 }
 
 .sq-red {
   position:absolute;
-  top 1px;
+  top: 1px;
   width: 25px;
   height: 25px;
   background: red;
 }
 
 .sq-purple {
+  position:absolute;
+  top: 35px;
+  width: 25px;
+  height: 25px;
+  background: purple;
 }
