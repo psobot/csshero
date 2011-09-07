@@ -82,6 +82,8 @@ body
    margin: 30px 0;
    display: block;
    color: white;
+   top: 0;
+   left: 0;
    position: absolute;
    -moz-transform:    rotate(35deg);
    -webkit-transform: rotate(35deg);
@@ -93,6 +95,8 @@ body
 }
 .star-five.right{
     float: right;
+    top: 0;
+    right: 0;
     margin-top: 0px;
 }
 .ribbon-holder {
