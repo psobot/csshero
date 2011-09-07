@@ -105,3 +105,50 @@ box-shadow:0 0 50px #ffa700;
     float: right;
     margin-top: 0px;
 }
+.ribbon-holder {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  height: 10em;
+}
+
+.left.ribbon-holder {
+  left: 0;
+}
+
+.ribbon,
+.ribbon:hover {
+  text-decoration: none;
+}
+
+.ribbon {
+  letter-spacing: -.1px;
+  opacity: 0.95;
+
+  padding: 0.25em 0;
+  position: relative;
+  top: 1em;
+
+  /* Defaults friendly for white pages. */
+  -webkit-box-shadow: 0 0 13px #888;
+  color: #FFF;
+  display: block;
+  line-height: 1.35em;
+}
+
+.ribbon .text {
+  padding: 0.1em 3em;
+}
+
+.left .ribbon {
+  -webkit-transform: rotate(-45deg);
+  left: -2.6em;
+}
+.red.ribbon {
+  background-color: #9a0000;
+  background: -webkit-gradient(linear, left bottom, left top, from(#9a0000), to(#a90000));
+}
+
+.red.ribbon .text {
+  border: 1px solid #bf6060;
+}
