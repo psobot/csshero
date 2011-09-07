@@ -81,7 +81,7 @@ body
 .tetris{
   width: 910px;
   background: #fff;
-  height: 100px;
+  height: 94px;
   margin-left: -14px;
 }
 
@@ -207,7 +207,7 @@ body
   -webkit-transform: rotate(-90deg); 
 }
 .tetris .horiz2 {
-  -webkit-transform: rotate(90deg); 
+  -webkit-transform: scaleX(-1) rotate(90deg); 
 }
 
 
@@ -228,8 +228,34 @@ left: 33px;
 top: -48px;
 left: 6px;}
 .tetris #p5{
-top: -48px;
-left: 6px;}
+top: -76px;
+left: 24px;
+}
+.tetris #p6{
+top: -95px;
+left: 15px;
+}
+.tetris #p7{
+top: -110px;
+left: 1px;
+}
+.tetris #p8{
+top: -128px;
+left: 10px;
+}
+.tetris #p9{
+top: 55px;
+left: 28px;
+}
+.tetris #p10{
+top: -147px;
+left: 1px;
+}
+.tetris #p11{
+top: -170px;
+left: 24px;
+}
+
 
 
 
