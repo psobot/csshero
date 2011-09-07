@@ -160,7 +160,6 @@ body
 
   padding: 0.25em 0;
   position: relative;
-  top: 25px;
 
   /* Defaults friendly for white pages. */
   -webkit-box-shadow: 0 0 13px #888;
@@ -185,4 +184,25 @@ body
 
 .red.ribbon .text {
   border: 1px solid #bf6060;
+}
+
+.ribbon {
+  border: dashed 1px;
+}
+
+.square-holder {
+  position:absolute;
+  right:560px;
+  top:40px;
+}
+
+.sq-red {
+  position:absolute;
+  top 1px;
+  width: 25px;
+  height: 25px;
+  background: red;
+}
+
+.sq-purple {
 }
