@@ -11,12 +11,16 @@ body
   -webkit-transform: rotate(-90deg); 
   -moz-transform: rotate(-90deg);	
 }
-
+.content{
+  padding: 10px;
+  margin: 20px 0 0 50px;
+  width: 900px;
+}
 .header {
   color: black;
   text-align: center;
   width: 500px;
-  height: 300px;
+  height: 100px;
   margin: 10px auto;
   font-size: 5em;
   font-weight: bold;
@@ -25,7 +29,7 @@ body
 }
 
 .header .text{
-  margin-top: -150px;
+  margin-top: -130px;
   position: relative;
   z-index: 9999;
 
@@ -37,6 +41,14 @@ body
   box-shadow:5px 5px 15px #000; 
   z-index: 5;
 }
+.birdbox {
+  float: left;
+}
+.copy {
+  margin-left: 430px;
+  line-height: 1.5em;
+  font-size: 1.1em;
+} 
 
 .pictext {
   position: relative;
@@ -62,7 +74,7 @@ body
 
 
 .star-five {
-   margin: 50px 0;
+   margin: 30px 0;
    position: relative;
    display: block;
    color: white;
@@ -75,9 +87,9 @@ body
    -webkit-transform: rotate(35deg);
    -ms-transform:     rotate(35deg);
    -o-transform:      rotate(35deg);
--webkit-box-shadow:0 0 50px #ffa700; 
--moz-box-shadow: 0 0 50px #ffa700; 
-box-shadow:0 0 50px #ffa700; 
+    -webkit-box-shadow:0 0 50px #ffa700; 
+    -moz-box-shadow: 0 0 50px #ffa700; 
+    box-shadow:0 0 50px #ffa700; 
 }
 .star-five:before {
    border-bottom: 80px solid white;
@@ -94,9 +106,9 @@ box-shadow:0 0 50px #ffa700;
    -moz-transform:    rotate(-35deg);
    -ms-transform:     rotate(-35deg);
    -o-transform:      rotate(-35deg);
--webkit-box-shadow:0 0 50px #ffa700; 
--moz-box-shadow: 0 0 50px #ffa700; 
-box-shadow:0 0 50px #ffa700; 
+    -webkit-box-shadow:0 0 50px #ffa700; 
+    -moz-box-shadow: 0 0 50px #ffa700; 
+    box-shadow:0 0 50px #ffa700; 
 
 }
 .star-five:after {
@@ -115,10 +127,9 @@ box-shadow:0 0 50px #ffa700;
    -ms-transform:     rotate(-70deg);
    -o-transform:      rotate(-70deg);
    content: '';
--webkit-box-shadow:0 0 50px #ffa700; 
--moz-box-shadow: 0 0 50px #ffa700; 
-box-shadow:0 0 50px #ffa700; 
-
+    -webkit-box-shadow:0 0 50px #ffa700; 
+    -moz-box-shadow: 0 0 50px #ffa700; 
+    box-shadow:0 0 50px #ffa700; 
 }
 .star-five.right{
     float: right;
@@ -151,7 +162,8 @@ box-shadow:0 0 50px #ffa700;
   -webkit-box-shadow: 0 0 13px #888;
   color: #FFF;
   display: block;
-  line-height: 1.35em;
+  line-height: 25px;
+  font-size: 15px;
 }
 
 .ribbon .text {
@@ -160,7 +172,7 @@ box-shadow:0 0 50px #ffa700;
 
 .left .ribbon {
   -webkit-transform: rotate(-45deg);
-  left: -2.6em;
+  left: -50px;
 }
 .red.ribbon {
   background-color: #9a0000;
@@ -173,4 +185,21 @@ box-shadow:0 0 50px #ffa700;
 
 .ribbon {
   border: dashed 1px;
+}
+
+.square-holder {
+  position:absolute;
+  right:560px;
+  top:40px;
+}
+
+.sq-red {
+  position:absolute;
+  top 1px;
+  width: 25px;
+  height: 25px;
+  background: red;
+}
+
+.sq-purple {
 }
